@@ -12,4 +12,8 @@ CREATE TABLE tb_produtos(
 
 SELECT * FROM tb_produtos;
 
-INSERT INTO tb_produtos(codigo_produto,tipo_produto,cor_produto,valor_produto)VALUE(152,"Mesa","preto",50.000);
+INSERT INTO tb_produtos(codigo_produto,tipo_produto,cor_produto,valor_produto)VALUE(100,"Porta","marrom",800.000);
+
+SELECT * FROM tb_produtos WHERE valor_produto > 500;
+
+SELECT * FROM tb_produtos WHERE valor_produto < 500;
